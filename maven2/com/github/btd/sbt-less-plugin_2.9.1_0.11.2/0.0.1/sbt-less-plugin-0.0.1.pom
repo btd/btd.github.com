@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.gihub.btd</groupId>
+    <groupId>com.github.btd</groupId>
     <artifactId>sbt-less-plugin</artifactId>
     <packaging>jar</packaging>
     <description>sbt-less-plugin</description>
@@ -15,7 +15,7 @@
     </licenses>
     <name>sbt-less-plugin</name>
     <organization>
-        <name>com.gihub.btd</name>
+        <name>com.github.btd</name>
     </organization>
     <properties>
         <sbtVersion>0.11.2</sbtVersion>
@@ -39,12 +39,6 @@
             <artifactId>lesscss</artifactId>
             <version>1.3.0</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.scalatest</groupId>
-            <artifactId>scalatest_2.9.1</artifactId>
-            <version>1.6.1</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <repositories>
